@@ -23,7 +23,7 @@ jobs:
           enablement: true
       - run: |
           mkdir -p _site
-          cp index.html _site/index.html
+          cp index.html practice.html research.html _site/
           cp -R assets _site/assets
       - uses: actions/upload-pages-artifact@v3
         with:
