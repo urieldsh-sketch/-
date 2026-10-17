@@ -23,7 +23,7 @@ jobs:
           enablement: true
       - run: |
           mkdir -p _site
-          cp index.html practice.html research.html sitemap.xml google6dc76a4226f775ea.html _site/
+          cp index.html practice.html research.html privacy.html terms.html accessibility.html sitemap.xml google6dc76a4226f775ea.html _site/
           cp -R assets _site/assets
       - uses: actions/upload-pages-artifact@v3
         with:
